@@ -1,7 +1,13 @@
-#Import all classes here
+from Passenger_class import *
 
 #create object here
     #generate 6 passengers
+passenger_1 = Passenger('Vinu', 'Human', '007')
+passenger_2 = Passenger('Thanu', 'Marching', '068')
+passenger_3 = Passenger('David', 'Whitch', '666')
+passenger_4 = Passenger('Vishnu', 'Venus', '900')
+passenger_5 = Passenger('Sharik', 'Pluton', '045')
+passenger_1 = Passenger('Lenny', 'Wookie', '887')
     #generate 3 spaceships
     #generate 3 expeditions
         #keep list of generated expedition (add to empty list)
@@ -17,4 +23,4 @@
 
 
 #creare while loop here
-    #Use input to get user input and generate objects dynamically. 
+    #Use input to get user input and generate objects dynamically.
