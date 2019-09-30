@@ -8,7 +8,7 @@ class Spaceship():
         return self.__signature
 
     def identity_name(self):
-        return self.name
+        return self.__name
 
     def change_name(self, name):
         self.__name = name

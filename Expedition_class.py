@@ -19,6 +19,16 @@ class Expedition():
         }
         return dict_expo
 
+#Assign to each expedition assign 2 passengers (append)
+
+    def add_passenger_expo(self, passenger):
+        #get passenger list and add to it
+        if self.__passenger_list.append(passenger):
+            return True
+        else:
+            return False
+
+
 
 # Expeditions should have:
 #an origin
