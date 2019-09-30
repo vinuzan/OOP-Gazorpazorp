@@ -1,3 +1,5 @@
+from Passenger_class import *
+
 class Expedition():
     def __init__(self, destination, spaceship = '', origin = 'Gazorpazorp'):
         self.__origin = origin
@@ -27,6 +29,23 @@ class Expedition():
             return True
         else:
             return False
+
+    def get_origin(self):
+        return self.__origin
+
+    def get_destination(self):
+        return self.__destination
+
+    def get_ship(self):
+        return self.__spaceship
+
+    def get_pass_list(self):
+        return self.__passenger_list
+
+    def print_list_passengers(self):
+        for passengers in self.get_pass_list():
+            print('Name: ' + passengers.name, 'Species: '+ passengers.species, 'IDR: '+passengers.dnareg)
+
 
 
 
